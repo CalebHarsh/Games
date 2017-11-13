@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cystal Game</title>
+    <!-- Linked Normalize Pages -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Linked Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">    
+    <!-- Linked CSS Pages -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Linked jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Linked Javascript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+<div class="header p-2">
+        <h1>Crystal Collector</h1> 
+    </div>
+    <div class="container">
+        <div class="row m-0 mt-3">
+            <div class="gameScreen col-md-6">
+                <div class="row">
+                    <div class="col-6 bg-primary pt-2" id="randNum">0
+                    </div>
+                    <div class="col-4 offset-2" id="counter">                  
+                        Game Start. <br>Wins: 0 <br>Loses: 0
+                    </div>
+                </div>
+                <div class="row crystals my-3 p-2">
+                    <div class="col-3">
+                        <img src="assets/images/dark-gem.jpg" class="gems" id="dark-gem" value="">
+                    </div>    
+                    <div class="col-3">    
+                        <img src="assets/images/green-gem.jpg" class="gems" id="green-gem" value="">
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/images/blue-gem.jpg" class="gems" id="blue-gem" value="">
+                    </div>    
+                    <div class="col-3">
+                        <img src="assets/images/purple-gem.jpg" class="gems" id="purple-gem" value="">
+                    </div>
+                </div> 
+                <div class="row mb-3 pb-2">
+                    <div class="myScore col-12">
+                        <h2>Your total score is: </h2> 
+                        <div id="score">0</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mx-3 p-2" id="directions">
+                <h3>Directions:</h3>
+                <p>
+                    You will be given a random number at the start of the game.
+                </p>
+                <p>
+                    There are four crystals below. By checking on a crystal you will add a specific 
+                    amount of points to your total score.
+                </p>
+                <p>
+                    You win the game by matching your total score to the random number. You lose the game if 
+                    your score goes above the random number.
+                </p>
+                <p>
+                    The value of each crystal is hidden from you until you click on it.
+                </p>
+                <p>
+                    Each time when the game starts, the crystals will change their values. 
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
