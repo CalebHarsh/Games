@@ -1,0 +1,177 @@
+/* webpage designs */
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    background-image: url("../images/background.png");
+    background-size: 100% 100%;
+    color: white;
+    height: inherit;
+    font-size: 17px;
+}
+container {
+    height: inherit; 
+}
+/* title design */
+.title {
+    position: absolute;
+    top: 10%;
+    right: 39%;
+    left: 39%;
+    text-align: center;
+}
+/* Civil War */
+h1 {
+    font-size: 51px;
+    color: darkblue; 
+    font-family: 'Bungee', cursive;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+/* Marvel RPG */
+h3{
+    font-size: 17px;
+    color: red;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+/* Part 2 */
+h5{
+    font-size: 19px; 
+    font-family: 'Ramabhadra', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/* terminal design */
+.log {
+    position: absolute;
+    border: 2px solid blue;
+    font-family: 'PT Mono', monospace;
+    border-radius: 30px 30px 0px 0px;
+    top: 75%;
+    bottom: 1%;
+    left: 41%;
+    right: 35%;
+    padding: 10px;
+    overflow: hidden;
+}
+/* player design */
+.player-stats {
+    padding: 2%;
+    position: absolute;
+    border: 5px solid green;
+    border-radius: 30px 0px 0px 0px;
+    right: 0%;
+    bottom: 1%;
+    left: 66%;
+    top: 75%;
+}
+#player-img  img {
+    width: 40%; 
+    float: left;
+}
+.stats {
+    display: inline-block;
+    margin: 5%;
+}
+/* character design */
+.characterScreen {
+    position: absolute;
+    background-color: lightgrey;
+    bottom: 20%;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    text-align: left;
+    padding: 90px 30px;
+    color: black;
+    font-size: 40px;
+    border-radius: 50px;
+}
+.characterList {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px; 
+    margin-top: 20px;
+}
+.character {
+    width: 20%; 
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.character img {
+    width: 90%;
+    height: 70%;
+}
+/* enemies design */
+.enemy-stats {
+    font-size: 19px; 
+    position: absolute;
+    border: 2px solid red;
+    border-radius: 0px 30px 0px 0px;
+    top: 75%;
+    bottom: 1%;
+    left: 1%;
+    right: 60%;
+    color: red;
+    padding: 5px; 
+}
+.enemyList{
+    display: flex;
+    justify-content: space-between;
+}
+.enemy {
+    width: 30%; 
+    margin: 10px auto; 
+    text-align: center;
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+}
+.enemy img {
+    width: 70%;
+    height: 58%;
+}
+/* defender sights design */
+.defendZone {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: absolute;
+    border: 2px solid black;
+    left: 37%;
+    right: 40%;
+    top: 30%;
+    bottom: 42%;
+    text-align: center;
+    font-size: 18px;
+}
+.defender {
+    width: 70%; 
+    margin: 4px auto; 
+    text-align: center;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+.defender img {
+    width: 70%;
+    height: 57%;
+}
+/* Controls design */
+#controls {
+    position: absolute;
+    top: 59%;
+    left: 43%;
+    right: 47%;
+}
+button {
+    padding: 10px 20px;
+    border: 2px solid green; 
+    color: green;
+    font-size: 200%;
+    background-color: white;
+}
+#reset {
+    color: red;
+    border-color: red;
+}
