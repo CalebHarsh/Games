@@ -175,3 +175,115 @@ button {
     color: red;
     border-color: red;
 }
+@media screen and (max-width: 960px) {
+    body {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 24px; 
+    }
+    .characterScreen {
+        padding: 45px 20px; 
+    }
+    .character {
+        font-size: 15px;
+    }
+    .enemy, .defender {
+        margin: 0px auto;
+        font-size: 13px;
+    }
+    .enemy img {
+        width: 70%;
+        height: 61%;
+    }
+    .defender img {
+        width: 67%;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 10px; 
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    .stats {
+        margin: 2%;
+    }
+    .characterScreen {
+        padding-top: 75px;
+    }
+    .characterList {
+        margin-top: 30px;
+    }
+    .character {
+        font-size: 13px;
+    }
+    .enemy, .defender {
+        margin: 10px auto;
+        font-size: 10px;
+    }
+    .defender {
+        width: 90%;
+    }
+    .enemy img {
+        width: 70%;
+        height: 61%;
+    }
+    .defender img {
+        width: 67%;
+    }
+}
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 8px; 
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    h5 {
+        font-size: 10px;
+    }
+    .stats {
+        margin: 5%;
+        font-size: 12px; 
+    }
+    #player-img img {
+        width: 40%;
+    }
+    .characterScreen {
+        padding-top: 75px;
+    }
+    .characterList {
+        margin-top: 30px;
+    }
+    .character {
+        font-size: 10px;
+    }
+    .enemy, .defender {
+        margin: 10px auto;
+        font-size: 8px;
+    }
+    .defender {
+        width: 90%;
+    }
+    .enemy img {
+        width: 70%;
+        height: 61%;
+    }
+    .defender img {
+        width: 67%;
+    }
+}
