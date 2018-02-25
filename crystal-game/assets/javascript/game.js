@@ -10,6 +10,7 @@ $(document).ready(function() {
             this.randomNum = Math.floor((Math.random() * 30) + 19);
             $("#randNum").text(this.randomNum);
             this.gemValue.sort(function() { return 0.5 - Math.random() });
+            console.log(this.gemValue)
             $("#dark-gem").attr("value", this.gemValue[0]);
             console.log(this.gemValue[0]);
             $("#green-gem").attr("value", this.gemValue[1]);
