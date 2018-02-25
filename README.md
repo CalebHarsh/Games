@@ -1,6 +1,6 @@
 # Games
 
-Games that can be played on web
+Games that can be played on the web
 
 ### Overview 
 
